@@ -23,7 +23,7 @@
   margin: 0;
 }
 .nav-item {
-  display: inline-block;
+  float: left;
   margin-left: 16px;
   line-height: 40px;
   color: white;
@@ -38,7 +38,7 @@
   background-color: aquamarine;
   height: 200px;
   width: 200px;
-  position: relative;
+  position: absolute;
   top: calc(50% - 100px);
   left: calc(50% - 100px);
   
