@@ -1,0 +1,73 @@
+body {
+     height: 100vh;
+     display: flex;
+    flex-direction: column;
+}
+
+
+header {
+    height: 40px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+   
+}
+
+.list_nav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+
+.list_nav > li {
+    margin-left: 16px;
+    list-style-type: none;
+}
+
+main {
+    display: flex;
+    flex-basis: 100%;
+   
+}
+section {
+    background-color: pink;
+    display: flex;
+    flex-basis: 100%;
+}
+
+.ican {
+  margin: auto;
+}
+
+aside {
+    background-color: gray;
+    width: 200px;
+}
+
+.news {
+    text-align: center;
+    margin: 16px 0;
+}
+
+.list_aside {
+    margin: 0;
+    padding: 0;
+}
+
+.list_aside > li {
+    margin-left: 16px;
+    list-style-type: none;
+    line-height: 40px;
+}
+
+footer {
+    display: flex;
+    height: 100px;
+    background-color: green;
+}
+
+h4 {
+   margin: auto;
+}
