@@ -67,10 +67,12 @@ aside {
 
 footer {
     display: flex;
+    align-items: center;
+    justify-content: center;
     height: 40px;
     background-color: green;
 }
 
 h4 {
-   margin: auto;
+  margin: 0;
 }
