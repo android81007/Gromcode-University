@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    margin: 0;
 }
 
 
@@ -29,13 +30,13 @@ header {
 
 main {
     display: flex;
-    flex-basis: 100%;
+    flex-grow: 1;
    
 }
 section {
     background-color: pink;
     display: flex;
-    flex-basis: 100%;
+    flex-grow: 1;
 }
 
 .ican {
