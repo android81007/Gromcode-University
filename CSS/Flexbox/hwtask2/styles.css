@@ -2,6 +2,7 @@
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 
@@ -13,7 +14,7 @@ header {
     margin: 8px;
     padding: 16px;
     background-color: bisque;
-    width: 100%;
     flex-basis: auto;
-    min-width: 300px;
+    width: 300px;
+    flex-grow: 1;
 }
