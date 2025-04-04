@@ -10,6 +10,7 @@ body {
 .articles-list {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 
@@ -22,5 +23,6 @@ header {
     padding: 16px;
     background-color: bisque;
     flex-basis: 300px;
+    min-width: 300px;
     flex-grow: 1;
 }
