@@ -2,7 +2,7 @@
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    height: 100vh;
 }
 
 
@@ -16,6 +16,5 @@ header {
     background-color: bisque;
     flex-basis: auto;
     width: 300px;
-    min-width: 300px;
     flex-grow: 1;
 }
