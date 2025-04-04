@@ -1,8 +1,15 @@
-.articles-list {
+
+body {
     box-sizing: border-box;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
+
+.articles-list {
     display: flex;
     flex-wrap: wrap;
-    height: 100vh;
 }
 
 
@@ -14,7 +21,6 @@ header {
     margin: 8px;
     padding: 16px;
     background-color: bisque;
-    flex-basis: auto;
-    width: 300px;
+    flex-basis: 300px;
     flex-grow: 1;
 }
