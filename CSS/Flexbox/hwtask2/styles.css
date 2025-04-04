@@ -1,20 +1,15 @@
 
 body {
     box-sizing: border-box;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-
 }
 
 .articles-list {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
 }
 
 
-header {
+h1 {
     text-align: center;
 }
 
@@ -24,8 +19,6 @@ header {
     background-color: bisque;
     flex-basis: 300px;
     flex-grow: 1;
+    flex-shrink: 0;
 }
 
-h2 {
-    margin: 0;
-}
