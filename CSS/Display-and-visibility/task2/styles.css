@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.articles {
+    display: flex;
+}
+
+div > div:nth-child(n) {
+    height: 100px;
+    width: 150px;
+    background-color: beige;
+    margin: 16px;
+}
+
+.cropped {
+    overflow: hidden;
+}
+
+.both-scrolls {
+    overflow-x: scroll;
+    cursor: all-scroll;
+
+}
+
+.vertical-scroll {
+    overflow-y: scroll;
+    cursor: all-scroll;
+}
