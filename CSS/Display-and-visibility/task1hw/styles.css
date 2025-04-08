@@ -11,8 +11,7 @@ div {
 }
 
 .tooltip {
-    display: block;
-    visibility: hidden;
+    display: none;
     background-color: grey;
     color: white;
     border-radius: 4px;
@@ -21,7 +20,7 @@ div {
     bottom: -40px;
 }
 
-.text:hover .tooltip {
-    visibility: visible;
+div:hover .tooltip {
+  display: block;
 }
 
