@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+h1 {
+    word-spacing: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    line-height: 28px;
+}
+
+.syles {
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 24px;
+    opacity: 80%;
+    text-decoration: underline;
+}
+
+p>a {
+    text-decoration: none;
+}
+
+.grey {
+    color: gray;
+}
