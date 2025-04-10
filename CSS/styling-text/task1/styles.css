@@ -20,7 +20,7 @@ p {
 .syles {
     letter-spacing: 3px;
     font-size: 24px;
-    opacity: 80%;
+    opacity: 0.8;
     text-decoration: underline;
 }
 
