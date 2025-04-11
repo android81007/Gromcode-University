@@ -3,6 +3,10 @@ html {
     font-size: 18px;
 }
 
+* {
+   box-sizing: border-box;
+}
+
 section {
     margin: 32px;
 }
