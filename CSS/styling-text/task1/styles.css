@@ -1,11 +1,12 @@
-html {
+* {
+   box-sizing: border-box;
+}
+
+body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
 
-* {
-   box-sizing: border-box;
-}
 
 section {
     margin: 32px;
@@ -22,7 +23,6 @@ p {
 }
 
 .syles {
-    font-weight: bold;
     letter-spacing: 3px;
     font-size: 24px;
     opacity: 0.8;
@@ -34,6 +34,5 @@ a {
 }
 
 .grey {
-    font-style: italic;
     color: gray;
 }
