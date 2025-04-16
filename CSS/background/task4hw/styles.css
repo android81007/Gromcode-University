@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+.image {
+  display: inline-block;
+  margin: 16px;
+  width: 200px;
+  height: 200px;
+  border: 1px dotted gray;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
