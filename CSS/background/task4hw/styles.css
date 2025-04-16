@@ -2,9 +2,11 @@
   box-sizing: border-box;
 }
 
-.image {
+.gallery {
   display: flex;
-  float: left;
+}
+
+.image {
   margin: 16px;
   width: 200px;
   height: 200px;
