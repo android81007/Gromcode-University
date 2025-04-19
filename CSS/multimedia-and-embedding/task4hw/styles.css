@@ -2,15 +2,15 @@
   box-sizing: border-box;
 }
 
-/* .image-container {
-} */
+.image-container {
+  position: relative;
+}
 
 .image {
   max-width: 100%;
   height: auto;
   margin: 0 auto;
   display: block;
-  position: relative;
 }
 
 .image-button {
@@ -23,7 +23,7 @@
   opacity: 0.5;
   cursor: pointer;
   position: absolute;
-  top: calc(50% - 170px);
+  top: calc(50% - 25px);
   left: calc(50% - 100px);
   text-align: center;
   line-height: 50px;
