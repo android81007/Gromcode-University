@@ -2,6 +2,6 @@
   box-sizing: border-box;
 }
 
-.control {
+.control, .choose-gender {
   margin: 16px;
 }
