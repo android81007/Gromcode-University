@@ -30,7 +30,7 @@ thead {
 }
 
 caption {
-  margin: 8px;
+  margin-bottom: 8px;
 }
 
 tbody > tr:nth-of-type(odd) {
