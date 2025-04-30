@@ -2,11 +2,11 @@
   box-sizing: border-box;
 }
 
-.first-button:hover {
-  color: green;
+.one-style:hover {
+  color: darkcyan;
 }
 
-.first-button:hover > .icon-bird {
+.one-style:hover > .icon-bird {
   fill: green;
 }
 
