@@ -6,10 +6,6 @@
   color: darkcyan;
 }
 
-.one-style:hover > .icon-bird {
-  fill: green;
-}
-
 .one-style {
   margin: 64px;
   width: 200px;
@@ -30,4 +26,8 @@
   width: 32px;
   vertical-align: middle;
   fill: white;
+}
+
+.icon-bird:hover {
+  fill: green;
 }
