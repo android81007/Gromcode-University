@@ -33,7 +33,7 @@ h1 {
 
 .main {
   display: flex;
-  height: 100%;
+  flex-grow: 1;
 }
 .navigation {
   width: 20%;
