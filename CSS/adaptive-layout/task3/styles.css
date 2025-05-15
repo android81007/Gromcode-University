@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+@media screen and (max-width: 400px) {
+  .img__big {
+    display: none;
+  }
+  .img__small {
+    max-width: 100%;
+    height: auto;
+  }
+}
+@media screen and (min-width: 401px) {
+  .img__small {
+    display: none;
+  }
+  .img__big {
+    max-width: 100%;
+    height: auto;
+  }
+}
