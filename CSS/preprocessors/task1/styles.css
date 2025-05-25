@@ -16,7 +16,7 @@
 }
 .nav-list__item {
   border-radius: 4px;
-  color: #ff7f50;
+  color: #fff;
   padding: 8px;
   margin-left: 8px;
   font-weight: 700;
@@ -27,6 +27,9 @@
   background-color: #fb0;
   opacity: 0.7;
   color: #fff;
+}
+.nav-list__item_selected {
+  background-color: #fb0;
 }
 
 html {
