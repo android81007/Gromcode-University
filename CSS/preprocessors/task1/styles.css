@@ -28,8 +28,9 @@
   opacity: 0.7;
   color: #fff;
 }
-.nav-list__item:nth-child(1) {
+.nav-list__item:nth-child(1):hover {
   opacity: 0.7;
+  background-color: #ff7f50;
 }
 .nav-list__item_selected {
   background-color: #fb0;
