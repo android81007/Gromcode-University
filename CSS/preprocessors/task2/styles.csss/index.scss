@@ -4,16 +4,22 @@
   box-sizing: border-box;
 }
 
+.body {
+}
 .container {
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+
+  @include portrait {
+    flex-direction: column;
+  }
 }
 
 .square {
-  min-width: 100px;
-  min-height: 100px;
+  width: 100px;
+  height: 100px;
   margin: 8px;
   background-color: $box-color-small;
 

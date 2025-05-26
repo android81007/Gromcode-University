@@ -3,29 +3,34 @@
 }
 
 .container {
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+}
+@media (orientation: portrait) {
+  .container {
+    flex-direction: column;
+  }
 }
 
 .square {
-  min-width: 100px;
-  min-height: 100px;
+  width: 100px;
+  height: 100px;
   margin: 8px;
   background-color: #ff7f50;
 }
-@media screen and (min-width: 600px) and (max-width: 899px) and (orientation: landscape) {
+@media screen and (min-width: 600px) and (max-width: 899px) {
   .square {
     background-color: #8a2be2;
   }
 }
-@media screen and (min-width: 900px) and (max-width: 1199px) and (orientation: landscape) {
+@media screen and (min-width: 900px) and (max-width: 1199px) {
   .square {
     background-color: #a61;
   }
 }
-@media screen and (min-width: 1200px) and (orientation: landscape) {
+@media screen and (min-width: 1200px) {
   .square {
     background-color: #c47;
   }
