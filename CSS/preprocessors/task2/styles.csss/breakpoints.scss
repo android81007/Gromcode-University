@@ -1,0 +1,24 @@
+$box-color-small: #ff7f50;
+$box-color-middle: #8a2be2;
+$box-color-big: #a61;
+$box-color-max: #c47;
+
+
+@mixin midl-size {
+  @media screen and (min-width: 600px) and (max-width: 899px) and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin big-size {
+  @media screen and (min-width: 900px) and (max-width: 1199px) and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin max-size {
+  @media screen and (min-width: 1200px) and (orientation: landscape) {
+    @content;
+  }
+}
+// or (orientation: portrait)
