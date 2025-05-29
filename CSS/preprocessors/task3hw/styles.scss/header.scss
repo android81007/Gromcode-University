@@ -9,7 +9,6 @@
   margin: 0 0 0 3em;
   text-transform: uppercase;
   cursor: pointer;
-  padding: 0;
   color: #fff;
 
   &__item {
@@ -33,7 +32,7 @@
 
 .submenu {
   position: absolute;
-  // margin: 0;
+  margin: 0;
   padding: 0;
   background-color: #ff7f50;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
@@ -45,6 +44,7 @@
 
   &__item {
     padding: 0 8px;
+
     &:hover {
       color: black;
     }
