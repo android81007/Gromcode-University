@@ -4,6 +4,7 @@
 }
 
 .menu {
+  display: flex;
   line-height: 3em;
   list-style-type: none;
   padding-left: 3em;
