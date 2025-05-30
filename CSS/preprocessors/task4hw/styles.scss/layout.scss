@@ -1,0 +1,55 @@
+body {
+  height: 100vh;
+}
+
+.box {
+  &__flex {
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__text {
+    text-transform: lowercase;
+    padding: 8px;
+    background-color: #faebd7;
+    border-radius: 4px;
+  }
+
+  &__navigation {
+    background-color: #ff7f50;
+  }
+
+  &__products-list {
+    background-color: #006400;
+  }
+
+  &__news {
+    background-color: #0ff;
+  }
+
+  @media screen and (min-width: 600px) and (max-width: 899px) {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+
+    &__navigation {
+      flex-grow: 1;
+    }
+    &__products-list {
+      flex-grow: 1;
+    }
+    &__news {
+      width: 100vw;
+    }
+  }
+
+  @media screen and (min-width: 900px) {
+    display: flex;
+
+    &__flex {
+      flex: 1 1 33.3vw;
+    }
+  }
+}
